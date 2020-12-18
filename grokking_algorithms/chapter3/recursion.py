@@ -12,9 +12,7 @@ from typing import Union
 # Example tree:
 example_tree = {
     "first": ["RED", "BLUE"],
-    "second": {
-        "simple_key": ["simple", "list", "of", "RED", "valued"],
-    },
+    "second": {"simple_key": ["simple", "list", "of", "RED", "valued"]},
     "third": {
         "abc": "BLUE",
         "jhl": "RED",
@@ -22,8 +20,8 @@ example_tree = {
             "key1": "value1",
             "key2": "RED",
             "key3": ["a", "lot", "of", "values", {"nested_key": "RED"}],
-        }
-     },
+        },
+    },
     "fourth": "RED",
 }
 

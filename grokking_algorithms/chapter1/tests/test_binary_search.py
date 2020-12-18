@@ -1,6 +1,7 @@
 import pytest
 from grokking_algorithms.chapter1.binary_search import (
-    binary_search, binary_search_bisect,
+    binary_search,
+    binary_search_bisect,
 )
 
 
@@ -20,7 +21,7 @@ def parameters():
             ([1, 3, 5, 8, 9], 4, -1),
             ([1, 3, 5, 8, 9], 10, -1),
             ([1, 3, 5, 8, 9], 0, -1),
-        ]
+        ],
     )
 
 

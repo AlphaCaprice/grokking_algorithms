@@ -1,10 +1,8 @@
-# Development
-
 ## Install dev requirements
-`pip install -r dev-requirements.pip`
+`pip install -r requirements-dev.txt`
 
 ## Run tests
-- `make test` run test
+- `make test` run tests
 
 ## Install pre-commit
 - `pip install pre-commit`
