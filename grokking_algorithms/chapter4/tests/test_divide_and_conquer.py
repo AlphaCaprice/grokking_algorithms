@@ -1,17 +1,13 @@
 import pytest
 
 from grokking_algorithms.chapter4.divide_and_conquer import (
-    recursion_sum, recursion_max, quick_sort,
+    recursion_sum,
+    recursion_max,
+    quick_sort,
 )
 
 
-@pytest.mark.parametrize(
-    "arr",
-    [
-        [5, 3, 2, 10, 4, 6],
-        [],
-    ]
-)
+@pytest.mark.parametrize("arr", [[5, 3, 2, 10, 4, 6], []])
 def test_recursion_sum(arr):
     assert recursion_sum(arr) == sum(arr)
 
